@@ -1,0 +1,20 @@
+cv/validation: 10559 clips, 10511 unique sentences, median 4.0s (max 10s), decoded in 15s
+  text prompt=none            a2t_R@1=0.616  a2t_R@5=0.761  a2t_MRR=0.683  a2t_R@1_pool1000=0.776  t2a_R@1=0.682
+  text prompt=Classification  a2t_R@1=0.600  a2t_R@5=0.749  a2t_MRR=0.669  a2t_R@1_pool1000=0.762  t2a_R@1=0.622
+  text prompt=Document        a2t_R@1=0.576  a2t_R@5=0.743  a2t_MRR=0.653  a2t_R@1_pool1000=0.742  t2a_R@1=0.751
+  text prompt=SearchQuery     a2t_R@1=0.640  a2t_R@5=0.791  a2t_MRR=0.709  a2t_R@1_pool1000=0.802  t2a_R@1=0.756
+cv/test: 10559 clips, 10458 unique sentences, median 4.6s (max 25s), decoded in 17s
+  text prompt=none            a2t_R@1=0.632  a2t_R@5=0.763  a2t_MRR=0.693  a2t_R@1_pool1000=0.763  t2a_R@1=0.660
+  text prompt=Classification  a2t_R@1=0.589  a2t_R@5=0.735  a2t_MRR=0.657  a2t_R@1_pool1000=0.755  t2a_R@1=0.609
+  text prompt=Document        a2t_R@1=0.594  a2t_R@5=0.741  a2t_MRR=0.662  a2t_R@1_pool1000=0.756  t2a_R@1=0.733
+  text prompt=SearchQuery     a2t_R@1=0.641  a2t_R@5=0.779  a2t_MRR=0.705  a2t_R@1_pool1000=0.792  t2a_R@1=0.741
+fleurs/dev: 369 clips, 141 unique sentences, median 14.0s (max 41s), decoded in 0s
+  text prompt=none            a2t_R@1=0.989  a2t_R@5=0.997  a2t_MRR=0.992  t2a_R@1=1.000
+  text prompt=Classification  a2t_R@1=0.995  a2t_R@5=1.000  a2t_MRR=0.997  t2a_R@1=1.000
+  text prompt=Document        a2t_R@1=0.997  a2t_R@5=1.000  a2t_MRR=0.999  t2a_R@1=1.000
+  text prompt=SearchQuery     a2t_R@1=0.992  a2t_R@5=1.000  a2t_MRR=0.996  t2a_R@1=1.000
+fleurs/test: 871 clips, 324 unique sentences, median 14.5s (max 39s), decoded in 0s
+  text prompt=none            a2t_R@1=0.986  a2t_R@5=0.994  a2t_MRR=0.990  t2a_R@1=0.997
+  text prompt=Classification  a2t_R@1=0.984  a2t_R@5=0.999  a2t_MRR=0.991  t2a_R@1=0.988
+  text prompt=Document        a2t_R@1=0.997  a2t_R@5=0.999  a2t_MRR=0.998  t2a_R@1=1.000
+  text prompt=SearchQuery     a2t_R@1=0.992  a2t_R@5=0.998  a2t_MRR=0.995  t2a_R@1=1.000

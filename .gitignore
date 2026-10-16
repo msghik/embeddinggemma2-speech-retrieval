@@ -1,0 +1,9 @@
+venv/
+data/
+ckpt/
+fa_run*/
+eg2-speechcommands-ft/
+__pycache__/
+*.npy
+readme.md
+results/fa_ft_start_time.txt

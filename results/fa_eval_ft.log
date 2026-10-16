@@ -1,0 +1,3 @@
+cv_test {'a2t_R@1': 0.985, 'a2t_R@5': 0.9932, 'a2t_MRR': 0.9889, 'n_clips': 10558, 'n_sentences': 10457, 'a2t_R@1_pool1000': 0.9927, 't2a_R@1': 0.9797, 'a2t_R@1_novel_sentences': 0.9853, 'n_novel': 10089}
+youtube_heldout_videos {'a2t_R@1': 0.9947, 'a2t_R@5': 0.997, 'a2t_MRR': 0.9957, 'n_clips': 1326, 'n_sentences': 1326, 'a2t_R@1_pool1000': 0.995, 't2a_R@1': 0.9887, 'a2t_R@1_novel_sentences': 0.9954, 'n_novel': 1296}
+filimo_test_5k {'a2t_R@1': 0.9074, 'a2t_R@5': 0.9492, 'a2t_MRR': 0.9263, 'n_clips': 5000, 'n_sentences': 4856, 'a2t_R@1_pool1000': 0.941, 't2a_R@1': 0.8966, 'a2t_R@1_novel_sentences': 0.9276, 'n_novel': 3575}

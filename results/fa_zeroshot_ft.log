@@ -1,0 +1,5 @@
+  text prompt=SearchQuery     a2t_R@1=0.994  a2t_R@5=0.999  a2t_MRR=0.996  a2t_R@1_pool1000=0.999  t2a_R@1=0.987
+  text prompt=SearchQuery     a2t_R@1=0.985  a2t_R@5=0.993  a2t_MRR=0.989  a2t_R@1_pool1000=0.994  t2a_R@1=0.979
+  text prompt=SearchQuery     a2t_R@1=1.000  a2t_R@5=1.000  a2t_MRR=1.000  t2a_R@1=1.000
+fleurs/test: 871 clips, 324 unique sentences, median 14.5s (max 39s), decoded in 1s
+  text prompt=SearchQuery     a2t_R@1=1.000  a2t_R@5=1.000  a2t_MRR=1.000  t2a_R@1=1.000

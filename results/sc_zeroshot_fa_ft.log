@@ -1,0 +1,12 @@
+validation: 9981 clips embedded in 14s (700 clips/s)
+  word|Classification          acc=0.8125
+  word|none                    acc=0.8926
+  spoken|Classification        acc=0.8918
+  word|SearchQuery             acc=0.9116
+  word|Document                acc=0.8768
+test: 11005 clips embedded in 15s (719 clips/s)
+  word|Classification          acc=0.8067
+  word|none                    acc=0.8943
+  spoken|Classification        acc=0.8876
+  word|SearchQuery             acc=0.9114
+  word|Document                acc=0.8729

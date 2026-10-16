@@ -1,0 +1,12 @@
+{
+ "validation/word|Classification": 0.8482116020438834,
+ "validation/word|none": 0.8889890792505761,
+ "validation/spoken|Classification": 0.9310690311592025,
+ "validation/word|SearchQuery": 0.9160404769061217,
+ "validation/word|Document": 0.913335337140567,
+ "test/word|Classification": 0.8369831894593367,
+ "test/word|none": 0.8891412994093594,
+ "test/spoken|Classification": 0.9299409359382099,
+ "test/word|SearchQuery": 0.917946388005452,
+ "test/word|Document": 0.9119491140390732
+}

@@ -1,0 +1,10 @@
+text-match test acc: 0.9299
+worst classes: [('learn', 0.6583850931677019), ('forward', 0.7419354838709677), ('tree', 0.7823834196891192), ('backward', 0.8), ('dog', 0.8409090909090909), ('bird', 0.8594594594594595), ('visual', 0.8787878787878788), ('bed', 0.8888888888888888)]
+best classes: [('six', 0.9974619289340102), ('left', 0.9830097087378641), ('eight', 0.9754901960784313), ('go', 0.9701492537313433), ('three', 0.9679012345679012)]
+top confusions (true -> predicted): [(('forward', 'four'), 36), (('learn', 'left'), 33), (('no', 'nine'), 32), (('tree', 'three'), 31), (('on', 'one'), 26), (('up', 'eight'), 17), (('dog', 'go'), 15), (('up', 'go'), 15), (('stop', 'six'), 12), (('off', 'go'), 12), (('bed', 'eight'), 11), (('two', 'go'), 11), (('seven', 'six'), 10), (('zero', 'go'), 9), (('zero', 'seven'), 9)]
+hard negatives: {'backward': 'forward', 'bed': 'cat', 'bird': 'cat', 'cat': 'six', 'dog': 'cat', 'down': 'up', 'eight': 'six', 'five': 'six', 'follow': 'forward', 'forward': 'four', 'four': 'five', 'go': 'off', 'happy': 'three', 'house': 'eight', 'learn': 'left', 'left': 'up', 'marvin': 'go', 'nine': 'eight', 'no': 'nine', 'off': 'on', 'on': 'one', 'one': 'on', 'right': 'left', 'seven': 'six', 'sheila': 'six', 'six': 'nine', 'stop': 'go', 'three': 'eight', 'tree': 'three', 'two': 'three', 'up': 'off', 'visual': 'six', 'wow': 'cat', 'yes': 'no', 'zero': 'nine'}
+centroid 1-shot per class: test acc=0.8617
+centroid 10-shot per class: test acc=0.9412
+centroid 100-shot per class: test acc=0.9567
+centroid all-shot per class: test acc=0.9565
+train clips: 84843

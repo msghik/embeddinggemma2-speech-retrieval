@@ -1,0 +1,13 @@
+Loading weights:   0%|          | 0/1165 [00:00<?, ?it/s]Loading weights:  80%|████████  | 934/1165 [00:00<00:00, 9337.85it/s]Loading weights: 100%|██████████| 1165/1165 [00:00<00:00, 9286.36it/s]
+validation: 9981 clips embedded in 12s (815 clips/s)
+  word|Classification          acc=0.8482
+  word|none                    acc=0.8890
+  spoken|Classification        acc=0.9311
+  word|SearchQuery             acc=0.9160
+  word|Document                acc=0.9133
+test: 11005 clips embedded in 13s (846 clips/s)
+  word|Classification          acc=0.8370
+  word|none                    acc=0.8891
+  spoken|Classification        acc=0.9299
+  word|SearchQuery             acc=0.9179
+  word|Document                acc=0.9119
