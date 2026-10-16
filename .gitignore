@@ -7,3 +7,5 @@ __pycache__/
 *.npy
 readme.md
 results/fa_ft_start_time.txt
+wh_run/
+results/wh_bench.log
