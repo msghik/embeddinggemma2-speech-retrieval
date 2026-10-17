@@ -12,3 +12,4 @@ numpy==1.26.4
 pandas==2.3.3
 pyarrow==25.0.1
 pillow==12.3.0
+jiwer==4.0.0
